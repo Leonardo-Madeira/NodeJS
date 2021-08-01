@@ -1,4 +1,4 @@
-const myFunction = ()=>{
+const myFunction = () => {
   console.log('Olá, mundo!')
 }
 
