@@ -6,13 +6,16 @@ const hostname = '127.0.0.1'
 const port = 2000
 
 //criar novo arquivo
+
 /*
 fs.writeFile('portfolio.txt','teste de conteudo', function(err){
   if(err) throw err;
   console.log('O arquivo foi criado com sucesso');
 })
 */
+
 //cria novo arquivo ou insere o conteúdo depois do que ja existe
+
 /*
 fs.appendFile('portfolio.txt','\n   Outro conteudo', (err)=>{
   if(err) throw err;
