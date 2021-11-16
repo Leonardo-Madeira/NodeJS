@@ -5,7 +5,13 @@
   "repository": "https://github.com/Leonardo-Madeira/NodeJS-Fundamentals.git",
   "author": "Leonardo Madeira <leomadeiraa@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
