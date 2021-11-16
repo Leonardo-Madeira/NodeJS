@@ -1,4 +1,3 @@
-const { request } = require("express")
 const express = require("express")
 
 const app = express()
@@ -30,6 +29,8 @@ app.get("/courses", (req, res) => {
 })
 
 app.post("/courses", (req, res) =>{
+    const {id} = request.params
+    console.log(id)
     return res.json(["Curso 1", "Curso 2", "Curso 3", "Curso 4"])
 });
 
