@@ -1,3 +1,0 @@
-function getFlagValue(flag){
-    
-}
