@@ -7,7 +7,7 @@ const port = 2000 // pode ser a porta 8080
 
 const server = http.createServer((req, res) => {
   console.log(req.headers)
-  fs.readFile('index.html', function (err, data) {
+  fs.readFile('index.html', (err, data) => {
     res.writeHead(200, { 'Content-Type': 'text/html' })
     res.write(data)
     return res.end()
