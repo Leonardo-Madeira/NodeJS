@@ -1,0 +1,3 @@
+myDateTime = () => {
+    return Date();
+};
