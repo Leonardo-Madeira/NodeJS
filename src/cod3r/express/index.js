@@ -13,7 +13,6 @@ app.get('/',(req, res)=>{
     //res.json([{id:1,nome:'Fulano',idade:'35'},{id:2,nome:'Beltrano'idade:'18'},{id:1,nome:'Sicrano',idade:'55'}]) //tbm pode transforma um array em json
 })
 
-
 app.listen(port, ()=>{
     console.log(`Servidor executado com sucesso na porta:${port}`)
 })
