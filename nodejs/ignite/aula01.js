@@ -11,7 +11,6 @@ app.use(express.json())
     * PATCH = alterar uma informação específico
     * DELETE = Deletar uma informação no servidor
  */
-
 /**
  #Tipos de parametros:
 
@@ -69,4 +68,4 @@ app.delete("/courses/:id", (req, res) =>{
     return res.json(["Curso 6", "Curso 2", "Curso 4"])
 })
 
-app.listen(8080)
+app.listen(8080);
