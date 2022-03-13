@@ -12,6 +12,7 @@ app.use(express.json())
     * DELETE = Deletar uma informação no servidor
  */
 /**
+
  #Tipos de parametros:
 
  1 - Route Params => Indentificar um recurso editar/deletar/buscar
@@ -39,7 +40,6 @@ app.use(express.json())
 :>  1 - Route Params => Indentificar um recurso editar/deletar/buscar
 :>  2 - Query Params => Paginação /Filtro
 :>  3 - Body Params => Os objetos inserção/alteração
-
  */
 
 app.get("/courses", (req, res) => {
