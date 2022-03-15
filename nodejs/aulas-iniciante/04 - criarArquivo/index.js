@@ -22,7 +22,6 @@ fs.appendFile('portfolio.txt','\n   Outro conteudo', (err)=>{
   console.log("Arquivo salvo com sucesso")
 })
 */
-
 const server = http.createServer((req, res) => {
   console.log(req.headers)
   fs.readFile('index.html', function (err, data) {
