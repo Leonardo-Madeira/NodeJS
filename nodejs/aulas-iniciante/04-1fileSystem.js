@@ -4,9 +4,7 @@
 
 const fs = require('fs')
 
-
 //Uso comum para o módulo File System:
-
 
 // * Ler arquivos       | Read files
 // * Criar arquivos     | Create files
@@ -14,7 +12,6 @@ const fs = require('fs')
 // * Deletar arquivos   | Delete files
 // * Renomear arquivos  | Rename files
 // * Upload Files
-
 
 //**************************************** */
 
